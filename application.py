@@ -41,7 +41,7 @@ def upload_apple():
 
 
 
-    result = client.inference("eccce51a-06d1-46d8-81f3-670008c2a997", path)
+    result = client.inference("0ca8664b-a64b-4f59-9fd1-1ea033f3b3c6", path)
     pred = result["prediction"]
     res = result["confidence"]
 
